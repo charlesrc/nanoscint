@@ -5,9 +5,6 @@ If you use methods in this repository or find them useful, please cite our work 
 
 <div id="top"></div>
 
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 <!-- PROJECT LOGO -->
 <br />
