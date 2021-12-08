@@ -1,0 +1,21 @@
+include alpha.pionpos
+include alpha.lattice
+
+electronic-minimize\
+nIterations 200
+
+spintype z-spin
+#elec-initial-magnetization 0 no
+elec-initial-magnetization 1 yes
+elec-initial-charge -1 # Hole doped
+elec-smearing Fermi 0.01
+#elec-ex-corr hyb-gga-b97-k
+
+ion-species ./Si.upf
+ion-species ./O.upf
+ion-species ./H.upf
+
+elec-cutoff 25
+kpoint-folding 6 6 6
+dump End State BandEigs momenta Excitations EigStats ElecDensity
+

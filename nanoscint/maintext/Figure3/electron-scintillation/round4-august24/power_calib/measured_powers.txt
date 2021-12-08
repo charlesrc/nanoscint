@@ -1,0 +1,11 @@
+background 	0.013 uW
+light with both filters 1.033 uW
+
+center wavelength on power meter 635nm
+integration time 0.01s with 10 frames for through_setup
+
+FILTERS USED: 
+Thorlabs NE03A https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=266&pn=NE03A
+Newport Heat Filter https://www.newport.com/p/FSQ-KG5#mz-expanded-view-1528817971856
+
+MEASURED ANGLE WAS 1.2 BEFORE MOVING (REFERENCE FOR ALL OTHER SESSIONS)

@@ -1,0 +1,43 @@
+
+    #core-overlap-check none
+    #ion-species SG15/$ID_ONCV_PBE.upf # Norm conserving pseudopotentials for accurate momentum matrix elements
+    #ion-species GBRV/$ID_pbe.uspp # Norm conserving pseudopotentials for accurate momentum matrix elements
+    
+    ion-species ../Si.upf
+    ion-species ../O.upf
+    ion-species ../H.upf
+    
+    coords-type Cartesian
+
+    dump End BandEigs momenta Excitations EigStats ElecDensity #Eigenvalues, momentum matrix elements, dipole matrix elements, HOMO-LUMO, etc
+    
+    ion H 13.1685372 -1.2443517191191251 13.12576799997494  1 
+    ion H 18.082537199999997 7.266945949274335 13.12576799997494  1 
+    ion H 9.350388599999999 4.0154388940153725 17.223896395972478  1 
+    ion H 19.063371599999996 3.5151659370464987 16.72976439596806  1 
+    ion H 16.908091199999998 -2.270814217927377 9.521771603981822  1 
+    ion H 12.4839886 6.622038894015373 20.602296395972477  1 
+    ion H 13.1685372 1.2443517191191251 8.498231999983776  1 
+    ion H 13.2972886 1.550838894015373 19.597296395972478  1 
+
+    ion O 14.2690886 5.186338894015373 15.873596395972477  1 
+    ion O 16.908091199999998 2.270814217927377 12.102228395976894  1 
+
+    ion Si 17.0510886 4.511838894015373 14.415996395972478  1 
+    ion Si 12.350388599999999 4.344038894015373 18.32429639597248  1 
+    ion Si 15.037822799999999 0.0 10.811999999979358  1 
+
+    
+    spintype z-spin
+    elec-initial-magnetization 0 no
+    #electronic-SCF
+    elec-initial-charge -1 # Hole doped
+    elec-smearing Fermi 0.0001
+    coulomb-interaction Isolated
+    elec-ex-corr hyb-gga-b97-k 
+	#elec-ex-corr bb1k
+    lattice\ 
+     35 0 0 \ 
+     0 35 0 \
+     0 0 35
+    
