@@ -60,10 +60,12 @@ This repository contains codes and data published in the above-mentioned manuscr
 
 Our numerical methods utilize some existing libraries and packages:
 
-* [CASINO](https://www.gel.usherbrooke.ca/casino/What.html)
-* [grcwa](https://github.com/weiliangjinca/grcwa)
-* [JDFTx](https://jdftx.org/)
-* [NLopt](https://nlopt.readthedocs.io/en/)
+* [CASINO](https://www.gel.usherbrooke.ca/casino/What.html) for electron-beam energy loss calculations
+* [grcwa](https://github.com/weiliangjinca/grcwa) for photonics simulation 
+* [JDFTx](https://jdftx.org/) for DFT calculations 
+* [NLopt](https://nlopt.readthedocs.io/en/) for structural design optimization 
+
+If you use some of those methods, please cite them as well, as appropriate. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -76,14 +78,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 To download required Python packages, you can use the following command
-* npm
+* Requirements
   ```sh
   npm install npm@latest -g
   ```
 
 ### Installation
 
-1. Clone the repo
+Clone the repository
    ```sh
    git clone https://github.com/charlesrc/nanoscint.git
    ```
@@ -98,43 +100,22 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- CONTACT -->
 ## Contact
 
-All inquiries should be addressed to the corresponding authors of the manuscript:
+All questions, inquiries, or suggestions should be addressed to the corresponding authors of the manuscript:
 
-Charles Roques-Carmes - [@twitter_handle](https://twitter.com/twitter_handle) - chrc@mit.edu
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Charles Roques-Carmes - [@personal_website](https://chrc.scripts.mit.edu) - chrc@mit.edu
+Nicholas Rivera - [@personal_website](http://nrivera.scripts.mit.edu/nhr/) - nrivera@mit.edu 
+Project Link: [https://github.com/charlesrc/nanoscint](https://github.com/charlesrc/nanoscint)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* This material is based upon work supported in part by the U.S. Army Research Laboratory and the U.S. Army Research Office through the Institute for Soldier Nanotechnologies, under contract number~W911NF-18–2–0048. 
+* This material is also in part based upon work supported by the Air Force Office of Scientific Research under the award number FA9550-20-1-0115, as well as in part supported by the Air Force Office of Scientific Research under the award number FA9550-21-1-0299.
+* This work was performed in part on the Raith VELION FIB-SEM in the MIT.nano Characterization Facilities (Award: DMR-2117609)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
