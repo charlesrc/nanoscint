@@ -6,7 +6,7 @@
 <h3 align="center">A framework for scintillation in nanophotonics</h3>
 
   <p align="justify">
-    Code and data for paper "A framework for scintillation in nanophotonics", preprint available at https://arxiv.org/abs/2110.11492 
+    Code and data for paper "A framework for scintillation in nanophotonics", preprint available on <li><a href=" https://arxiv.org/abs/2110.11492 "></a></li>
     If you use methods in this repository or find them useful, please cite our work as [Roques-Carmes, Charles, et al. "A general framework for scintillation in nanophotonics." arXiv preprint arXiv:2110.11492 (2021).]
     <br />
   </p>
@@ -123,7 +123,7 @@ All questions, inquiries, or suggestions should be addressed to the correspondin
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* This material is based upon work supported in part by the U.S. Army Research Laboratory and the U.S. Army Research Office through the Institute for Soldier Nanotechnologies, under contract number~W911NF-18–2–0048. 
+* This material is based upon work supported in part by the U.S. Army Research Laboratory and the U.S. Army Research Office through the Institute for Soldier Nanotechnologies, under contract number W911NF-18–2–0048. 
 * This material is also in part based upon work supported by the Air Force Office of Scientific Research under the award number FA9550-20-1-0115, as well as in part supported by the Air Force Office of Scientific Research under the award number FA9550-21-1-0299.
 * This work was performed in part on the Raith VELION FIB-SEM in the MIT.nano Characterization Facilities (Award: DMR-2117609)
 
