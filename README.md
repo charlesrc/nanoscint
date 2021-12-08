@@ -6,7 +6,7 @@
 <h3 align="center">A framework for scintillation in nanophotonics</h3>
 
   <p align="justify">
-    Code and data for paper "A framework for scintillation in nanophotonics", preprint available on <a href=" https://arxiv.org/abs/2110.11492 "></a>arXiv. If you use methods in this repository or find them useful, please cite our work as [Roques-Carmes, Charles, et al. "A general framework for scintillation in nanophotonics." arXiv preprint arXiv:2110.11492 (2021).]
+    Code and data for paper "A framework for scintillation in nanophotonics", preprint available on <a href=" https://arxiv.org/abs/2110.11492 ">arXiv</a>. If you use methods in this repository or find them useful, please cite our work as [Roques-Carmes, Charles, et al. "A general framework for scintillation in nanophotonics." arXiv preprint arXiv:2110.11492 (2021).]
     <br />
   </p>
 </div>
