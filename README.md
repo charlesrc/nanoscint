@@ -77,7 +77,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Python Prerequisites
 
-Code was written in Python 3.9.6. To download required Python packages, you can use the following command (preferably in a virtual environment):
+Python sections of the code were written in Python 3.9.6. To download required Python packages, you can use the following command (preferably in a virtual environment):
 * Python Requirements
   ```sh
   pip install -r requirements.txt
@@ -85,7 +85,7 @@ Code was written in Python 3.9.6. To download required Python packages, you can 
 
 ### Julia Prerequisites
 
-Code was written in Julia 1.6.1. To download required Julia packages, you can use the following command (preferably in a virtual environment):
+Julia sections of the code were written in Julia 1.6.1. To download required Julia packages, you can use the following command (preferably in a virtual environment):
 * Julia Requirements
   ```sh
   Pkg.add(["PyCall", "PyPlot", "Peaks", "Statistics", "LinearAlgebra", "SparseArrays", "GSL", "DifferentialEquations", "Sundials", "PyCall", "LsqFit", "Printf", "Interpolations", "DelimitedFiles", "JLD2"])
