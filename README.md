@@ -61,8 +61,8 @@ This repository contains codes and data published in the above-mentioned manuscr
 Our numerical methods utilize some existing libraries and packages:
 
 * [grcwa](https://github.com/weiliangjinca/grcwa) for photonics simulation and automatic differentiation with RCWA.
-* [CASINO](https://www.gel.usherbrooke.ca/casino/What.html) for electron-beam energy loss calculations. Examples of output data from CASINO used in our work can be found [here](maintext/Figure2/casinores/). 
-* [JDFTx](https://jdftx.org/) for DFT calculations. Examples of output data from JDTFx used in our work can be found [here](maintext/DFT Setup and Analysis/). 
+* [CASINO](https://www.gel.usherbrooke.ca/casino/What.html) for electron-beam energy loss calculations. Examples of output data from CASINO used in our work can be found [here](nanoscint/maintext/Figure2/casinores/). 
+* [JDFTx](https://jdftx.org/) for DFT calculations. Examples of output data from JDTFx used in our work can be found [here](nanoscint/maintext/DFT Setup and Analysis/). 
 * [NLopt](https://nlopt.readthedocs.io/en/latest/) for optimization.
 
 If you use some of those methods, please cite them as well, as appropriate. 
