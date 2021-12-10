@@ -75,6 +75,13 @@ If you use some of those methods, please cite them as well, as appropriate.
 
 To get a local copy up and running follow these simple example steps.
 
+### Installation
+
+Clone the repository
+   ```sh
+   git clone https://github.com/charlesrc/nanoscint.git
+   ```
+
 ### Python Prerequisites
 
 Python sections of the code were written in Python 3.9.6. To download required Python packages, you can use the following command (preferably in a virtual environment):
@@ -88,15 +95,8 @@ Python sections of the code were written in Python 3.9.6. To download required P
 Julia sections of the code were written in Julia 1.6.1. To download required Julia packages, you can use the following command (preferably in a virtual environment):
 * Julia Requirements
   ```sh
-  Pkg.add(["PyCall", "PyPlot", "Peaks", "Statistics", "LinearAlgebra", "SparseArrays", "GSL", "DifferentialEquations", "Sundials", "PyCall", "LsqFit", "Printf", "Interpolations", "DelimitedFiles", "JLD2"])
+  Pkg.add(["PyCall", "PyPlot", "Peaks", "Statistics", "LinearAlgebra", "SparseArrays", "GSL", "DifferentialEquations", "Sundials", "LsqFit", "Printf", "Interpolations", "DelimitedFiles", "JLD2"])
   ```
-
-### Installation
-
-Clone the repository
-   ```sh
-   git clone https://github.com/charlesrc/nanoscint.git
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
