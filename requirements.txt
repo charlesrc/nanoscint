@@ -68,7 +68,7 @@ parso==0.8.2
 partd==1.2.0
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==8.3.1
+Pillow==8.3.2
 pip==21.1.2
 pox==0.3.0
 ppft==1.6.6.4
